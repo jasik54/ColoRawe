@@ -14,3 +14,12 @@ a {text-decoration: none;
 body { 
     font-family: Roboto;
 }
+.logo{
+    
+}
+.name{
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+
+}
