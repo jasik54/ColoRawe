@@ -1,90 +1,196 @@
 *,
 *::before,
 *::after {
-box-sizing: border-box;
+  box-sizing: border-box;
 }
-h1,h2,h3,h4,h5,h6,html,main,body,p,ol,ul,li{
-margin: 0;
-padding: 0;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+html,
+main,
+body,
+p,
+ol,
+ul,
+li {
+  margin: 0;
+  padding: 0;
 }
-ul {list-style-type: none;
+ul {
+  list-style-type: none;
 }
-a {text-decoration: none;
-color: currentColor;
-    
+a {
+  text-decoration: none;
+  color: currentColor;
 }
-body { 
-line-height: normal;
+body {
+  line-height: normal;
+  font-family: Roboto;
+}
+.container {
+  margin: 0 auto;
+  width: 1107px;
+}
+/* =====================header======================= */
+.header {
+  padding: 16px 0;
+  background-color: #012d63;
+}
+.wrap-content-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav_item:hover .nav_link {
+  color: #fff;
+}
+.header_navigation_list {
+  display: flex;
+  gap: 29px;
+  color: #c7c7c7;
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.lang-list {
+  display: flex;
+}
+.lang-link{
+color: #DCDCDC;
 font-family: Roboto;
-}
-.header{
-  background-color:#012D63 ;
-  width: 1440px;
-height: 93px;
-flex-shrink: 0;
-}
-.logo{
-
-}
-.name{
-font-weight: 700;
-}
-
-.text{
-font-weight: 500;
-  }
-  .header_navigation_list{
-   display: flex;
-   gap: 29px;
-color: #C7C7C7;
 font-size: 24px;
+font-weight: 300;
+}
+/* ==============================HERO============================= */
+.hero {
+  height: 858px;
+  background-image: url(img/hero-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.hero-logo{
+  margin-top: 94px;
+}
+.hero-item{
+  width: 178px;
+height: 86px;
+color: #FFF;
+font-family: "PT Serif";
+font-size: 48px;
 font-weight: 400;
 }
-.hero{
-
+.text{
+color: #FFF;
+font-family: Roboto;
+font-size: 18px;
+font-weight: 400;
 }
-  .nav_item:hover .nav_link{
-    color: #fff;  
-  }
-.hero_title{
+
+.hero_title {
+  color: #fff;
+  font-family: "Playfair Display";
+  font-size: 144px;
+  font-weight: 400;
+}
+.dream{
 color: #FFF;
 font-family: "Playfair Display";
-font-size: 144px;
+font-size: 72px;
 font-weight: 400;
 }
-.Buy_my_Nike{
-color: #FFF;
-font-size: 24px;
-font-weight: 400;
-background-color:#8E32C6;
-width: 254px;
-height: 67px;
-flex-shrink: 0;
+.Buy_my_Nike {
+  color: #fff;
+  font-size: 24px;
+  font-weight: 400;
+  background-color: #8e32c6;
+  width: 254px;
+  height: 67px;
 }
-
-.Order{
+.content{
+  height: 606px;
+  background-image: url(img/content-bg.png);
   display: flex;
- justify-content: center;
+  justify-content: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
-.blank{
-}
-.Order_my_Nike{
+.quality{
+  width: 159px;
+height: 102px;
 color: #FFF;
-font-size: 24px;
+text-align: center;
+font-family: "Playfair Display";
+font-size: 36px;
+font-weight: 400;;
+}
+.paint{
+color: #FFF;
+text-align: center;
+font-family: "Playfair Display";
+font-size: 36px;
 font-weight: 400;
-width: 248px;
-height: 68px;
-flex-shrink: 0;
-border-radius: 16px;
-background: #8E32C6;
+width: 161px;
+height: 102px;
+}
+.car{
+  width: 151px;
+height: 103px;
+color: #FFF;
+text-align: center;
+font-family: "Playfair Display";
+font-size: 36px;
+font-weight: 400;
+}
+.reviews{
+  width: 1440px;
+  height: 520px;
+  background-image: url(img/reviews-img.png);
+  background-repeat: no-repeat;
+  
+}
+.reviews-list{
+  width: 175px;
+height: 65px;
+color: #FFF;
+text-align: center;
+font-family: "Playfair Display";
+font-size: 48px;
+font-weight: 400;
+}
+.review{
+display: flex;
+width: 228px;
+color: #FFF;
+font-family: Roboto;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.Order {
+  display: flex;
+  justify-content: center;
+}
+.blank {
+}
+.Order_my_Nike {
+  color: #fff;
+  font-size: 24px;
+  font-weight: 400;
+  width: 248px;
+  height: 68px;
+  border-radius: 16px;
+  background: #8e32c6;
 }
 
-.footer{
-  background-color:#021635 ;
+.footer {
+  background-color: #021635;
   width: 1440px;
-height: 292px;
-flex-shrink: 0;
-color: #FFF;
-font-size: 24px;
-font-weight: 400;
+  height: 292px;
+  color: #fff;
+  font-size: 24px;
+  font-weight: 400;
 }
