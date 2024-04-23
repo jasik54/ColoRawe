@@ -39,14 +39,17 @@ body {
   padding: 16px 0;
   background-color: #012d63;
 }
+
 .wrap-content-header {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
+
 .nav_item:hover .nav_link {
   color: #fff;
 }
+
 .header_navigation_list {
   display: flex;
   gap: 29px;
@@ -58,6 +61,7 @@ body {
 .lang-list {
   display: flex;
 }
+
 .lang-link{
 color: #DCDCDC;
 font-family: Roboto;
@@ -71,9 +75,11 @@ font-weight: 300;
   background-repeat: no-repeat;
   background-size: cover;
 }
+
 .hero-logo{
   margin-top: 94px;
 }
+
 .hero-item{
   width: 178px;
 height: 86px;
@@ -82,6 +88,7 @@ font-family: "PT Serif";
 font-size: 48px;
 font-weight: 400;
 }
+
 .text{
 color: #FFF;
 font-family: Roboto;
@@ -95,6 +102,7 @@ font-weight: 400;
   font-size: 144px;
   font-weight: 400;
 }
+
 .dream{
 font-size: 72px;
 color: #FFF;
@@ -102,6 +110,7 @@ font-family: "Playfair Display";
 font-size: 72px;
 font-weight: 400;
 }
+
 .buy_my_Nike {
   margin-top: 61px;
   color: #fff;
@@ -111,20 +120,23 @@ font-weight: 400;
   width: 254px;
   height: 67px;
 }
+
 .our-advantages{
   background-image: url(img/reviews-img.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
+
 .content{
-  gap: 185px;
-  justify-content: center;
-  display: flex;
-  background-size: cover;
-  height: 606px;
+gap: 185px;
+justify-content: center;
+display: flex;
+background-size: cover;
+height: 606px;
 }
+
 .quality{
-  width: 159px;
+width: 159px;
 height: 102px;
 color: #FFF;
 text-align: center;
@@ -132,6 +144,7 @@ font-family: "Playfair Display";
 font-size: 36px;
 font-weight: 400;;
 }
+
 .paint{
 color: #FFF;
 text-align: center;
@@ -141,8 +154,9 @@ font-weight: 400;
 width: 161px;
 height: 102px;
 }
+
 .car{
-  width: 151px;
+width: 151px;
 height: 103px;
 color: #FFF;
 text-align: center;
@@ -152,7 +166,7 @@ font-weight: 400;
 }
 
 .reviews-list{
-  width: 175px;
+width: 175px;
 height: 65px;
 color: #FFF;
 text-align: center;
@@ -160,74 +174,78 @@ font-family: "Playfair Display";
 font-size: 48px;
 font-weight: 400;
 }
+
 .reviews-item{
-  height: 520px;
-  background-repeat: no-repeat;
-  background-image: url(img/reviews-img.png);
-  background-size: cover
+height: 520px;
+background-repeat: no-repeat;
+background-image: url(img/reviews-img.png);
+background-size: cover
 }
+
 .review{
-  background-size:cover;
-  gap: 93px;
-  text-align: center;
+background-size:cover;
+gap: 93px;
+text-align: center;
 display: flex;
 color: #FFF;
 font-family: Roboto;
 font-size: 24px;
 font-weight: 400;
 }
+
 .review-1{
-  background-image: url(img/reviews-bg1.png);
-  background-repeat: no-repeat;
-  width: 255px;
+background-image: url(img/reviews-bg1.png);
+background-repeat: no-repeat;
+width: 255px;
 height: 292px;
 border-radius: 15px;
 background: linear-gradient(137deg, #00E5E6 7.29%, #00A8F7 26.04%, #9A76F9 62.5%, #CC5EC2 100%);
 box-shadow: 0px 14px 0px -5px #7B54B2, 0px 30px 0px -13px #533978;
 }
+
 .from-2018{
-  color: #D8D8D8;
+color: #D8D8D8;
 font-family: Roboto;
 font-size: 12px;
 font-weight: 400;
 }
+
 .review-2{
-  background-image: url(img/reviews-bg2.png);
-  background-repeat: no-repeat;
-  width: 255px;
+background-image: url(img/reviews-bg2.png);
+background-repeat: no-repeat;
+width: 255px;
 height: 292px;
 border-radius: 15px;
 background: linear-gradient(137deg, #FF68B4 0%, #FF45E1 26.04%, #CE3AFF 62.84%, #8961FF 100%);
 box-shadow: 0px 14px 0px -5px #9159B1, 0px 30px 0px -13px #61337C;
-
 }
+
 .review-3{
-  background-image: url(img/reviews-bg3.png);
-  background-repeat: no-repeat;
-  width: 255px;
+background-image: url(img/reviews-bg3.png);
+background-repeat: no-repeat;
+width: 255px;
 height: 292px;
 border-radius: 15px;
 background: linear-gradient(143deg, #FFE128 0%, #FF9B5C 30.21%, #FF8381 63.29%, #FF5489 100%);
 box-shadow: 0px 14px 0px -5px #B95A4C, 0px 30px 0px -13px #732F26;
 }
-.order-item{
 
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 509px;
-  background-image: url(img/order-bg.png);
+.order-item{
+background-repeat: no-repeat;
+background-size: cover;
+height: 509px;
+background-image: url(img/order-bg.png);
 }
+
 .order{
-  display: flex;
-  color: #FFF;
+display: flex;
+color: #FFF;
 font-family: "Playfair Display";
 font-size: 48px;
 font-weight: 400;
-  display: flex;
+display: flex;
+}
 
-}
-.blank {
-}
 .order_my_Nike {
   display: flex;
   color: #fff;
