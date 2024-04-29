@@ -59,6 +59,7 @@ body {
 }
 
 .lang-list {
+  gap: 10px;
   display: flex;
 }
 
@@ -122,51 +123,59 @@ font-weight: 400;
 }
 
 .our-advantages{
-  background-image: url(img/reviews-img.png);
+  padding: 105px 165px;
+  background-image: url(img/bg-adva.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
 }
 
-.content{
-gap: 185px;
-justify-content: center;
+.content-list{
+  
+  text-align: center;
+  padding: 25px 0;
+  border: 5px solid #8E32C6;
+justify-content: space-around;
 display: flex;
-background-size: cover;
-height: 606px;
 }
-
-.quality{
-width: 159px;
-height: 102px;
-color: #FFF;
-text-align: center;
-font-family: "Playfair Display";
-font-size: 36px;
-font-weight: 400;;
+.content-item:nth-child(1){
+  border-right: 1px solid #FFFFFF;
 }
-
-.paint{
-color: #FFF;
-text-align: center;
-font-family: "Playfair Display";
-font-size: 36px;
-font-weight: 400;
-width: 161px;
-height: 102px;
+.content-item:nth-child(3){
+  border-left: 1px solid #FFFFFF;
 }
-
-.car{
-width: 151px;
-height: 103px;
+.content-item{
+  padding-left: 50px;
+  padding-right: 50px;
+}
+.content-text{
+/* width: 159px; */
+/* height: 102px; */
 color: #FFF;
 text-align: center;
 font-family: "Playfair Display";
 font-size: 36px;
 font-weight: 400;
+
 }
 
-.reviews-list{
-width: 175px;
+
+.review-list{
+  gap: 93px;
+  /* padding: 24px; */
+/* width: 175px; */
+/* height: 65px; */
+color: #FFF;
+display: flex;
+text-align: center;
+font-family: "Roboto";
+font-size: 24px;
+font-weight: 400;
+line-height: 28px;
+}
+.review-title{
+  justify-content: center;
+  width: 175px;
 height: 65px;
 color: #FFF;
 text-align: center;
@@ -175,32 +184,47 @@ font-size: 48px;
 font-weight: 400;
 }
 
-.reviews-item{
+.review{
+justify-content: center;
 height: 520px;
 background-repeat: no-repeat;
 background-image: url(img/reviews-img.png);
-background-size: cover
-}
-
-.review{
-background-size:cover;
-gap: 93px;
+background-size: cover;
 text-align: center;
-display: flex;
-color: #FFF;
-font-family: Roboto;
-font-size: 24px;
-font-weight: 400;
+/* color: #FFF; */
+/* font-family: Roboto; */
+/* font-size: 24px; */
+/* font-weight: 400; */
 }
+.review-item{
 
-.review-1{
-background-image: url(img/reviews-bg1.png);
-background-repeat: no-repeat;
+}
+.review-item:nth-child(1){
 width: 255px;
 height: 292px;
-border-radius: 15px;
 background: linear-gradient(137deg, #00E5E6 7.29%, #00A8F7 26.04%, #9A76F9 62.5%, #CC5EC2 100%);
 box-shadow: 0px 14px 0px -5px #7B54B2, 0px 30px 0px -13px #533978;
+}
+.review-item:nth-child(2){
+  width: 255px;
+  height: 292px;
+  background: linear-gradient(137deg, #FF68B4 0%, #FF45E1 26.04%, #CE3AFF 62.84%, #8961FF 100%);
+box-shadow: 0px 14px 0px -5px #9159B1, 0px 30px 0px -13px #61337C;
+}
+.review-item:nth-child(3){
+  width: 255px;
+  height: 292px;
+  background: linear-gradient(143deg, #FFE128 0%, #FF9B5C 30.21%, #FF8381 63.29%, #FF5489 100%);
+  box-shadow: 0px 14px 0px -5px #B95A4C, 0px 30px 0px -13px #732F26;}
+.review-text{
+  /* display: flex; */
+/* background-image: url(img/reviews-bg1.png); */
+/* background-repeat: no-repeat; */
+/* width: 255px; */
+/* height: 292px; */
+/* border-radius: 15px; */
+/* background: linear-gradient(137deg, #00E5E6 7.29%, #00A8F7 26.04%, #9A76F9 62.5%, #CC5EC2 100%); */
+ /* box-shadow: 0px 14px 0px -5px #7B54B2, 0px 30px 0px -13px #533978;  */
 }
 
 .from-2018{
@@ -210,27 +234,30 @@ font-size: 12px;
 font-weight: 400;
 }
 
-.review-2{
-background-image: url(img/reviews-bg2.png);
-background-repeat: no-repeat;
-width: 255px;
-height: 292px;
-border-radius: 15px;
-background: linear-gradient(137deg, #FF68B4 0%, #FF45E1 26.04%, #CE3AFF 62.84%, #8961FF 100%);
-box-shadow: 0px 14px 0px -5px #9159B1, 0px 30px 0px -13px #61337C;
+.review-text{
+  /* display: flex; */
+/* background-image: url(img/reviews-bg2.png); */
+/* background-repeat: no-repeat; */
+/* width: 255px; */
+/* height: 292px; */
+/* border-radius: 15px; */
+/* background: linear-gradient(137deg, #FF68B4 0%, #FF45E1 26.04%, #CE3AFF 62.84%, #8961FF 100%); */
+/* box-shadow: 0px 14px 0px -5px #9159B1, 0px 30px 0px -13px #61337C; */
 }
 
-.review-3{
-background-image: url(img/reviews-bg3.png);
-background-repeat: no-repeat;
-width: 255px;
-height: 292px;
-border-radius: 15px;
-background: linear-gradient(143deg, #FFE128 0%, #FF9B5C 30.21%, #FF8381 63.29%, #FF5489 100%);
-box-shadow: 0px 14px 0px -5px #B95A4C, 0px 30px 0px -13px #732F26;
+.review-text{
+  /* display: flex; */
+/* background-image: url(img/reviews-bg3.png); */
+/* background-repeat: no-repeat; */
+/* width: 255px; */
+/* height: 292px; */
+/* border-radius: 15px; */
+/* background: linear-gradient(143deg, #FFE128 0%, #FF9B5C 30.21%, #FF8381 63.29%, #FF5489 100%); */
+/* box-shadow: 0px 14px 0px -5px #B95A4C, 0px 30px 0px -13px #732F26; */
 }
 
 .order-item{
+ align-items: center;
 background-repeat: no-repeat;
 background-size: cover;
 height: 509px;
@@ -238,6 +265,7 @@ background-image: url(img/order-bg.png);
 }
 
 .order{
+  justify-content: center;
 display: flex;
 color: #FFF;
 font-family: "Playfair Display";
@@ -245,8 +273,19 @@ font-size: 48px;
 font-weight: 400;
 display: flex;
 }
+.blank{
+  color: #959595;
+font-size: 25px;
+font-weight: 400;
+  display: flex;
+  justify-content: center;
+}
+
+.search-form{
+}
 
 .order_my_Nike {
+
   display: flex;
   color: #fff;
   font-size: 24px;
