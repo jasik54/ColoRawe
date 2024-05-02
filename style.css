@@ -16,6 +16,7 @@ p,
 ol,
 ul,
 li {
+  list-style-type: none;
   margin: 0;
   padding: 0;
 }
@@ -149,6 +150,7 @@ display: flex;
   padding-right: 50px;
 }
 .content-text{
+ 
 /* width: 159px; */
 /* height: 102px; */
 color: #FFF;
@@ -161,6 +163,7 @@ font-weight: 400;
 
 
 .review-list{
+  margin-top: 24px;
   gap: 93px;
   /* padding: 24px; */
 /* width: 175px; */
@@ -174,9 +177,8 @@ font-weight: 400;
 line-height: 28px;
 }
 .review-title{
-  justify-content: center;
-  width: 175px;
-height: 65px;
+
+
 color: #FFF;
 text-align: center;
 font-family: "Playfair Display";
@@ -184,12 +186,19 @@ font-size: 48px;
 font-weight: 400;
 }
 
+.review-text{
+  padding-right: 9px;
+  padding-left: 15px;
+  padding-top: 49px;
+}
 .review{
+
 justify-content: center;
 height: 520px;
 background-repeat: no-repeat;
-background-image: url(img/reviews-img.png);
-background-size: cover;
+background-image: url('img/reviews-img2.png'), url('img/reviews-img.png');
+background-size: 310px,cover;
+background-position: left, center;
 text-align: center;
 /* color: #FFF; */
 /* font-family: Roboto; */
@@ -198,24 +207,29 @@ text-align: center;
 }
 .review-item{
 
+  margin-left: 230px;
 }
 .review-item:nth-child(1){
 width: 255px;
 height: 292px;
 background: linear-gradient(137deg, #00E5E6 7.29%, #00A8F7 26.04%, #9A76F9 62.5%, #CC5EC2 100%);
 box-shadow: 0px 14px 0px -5px #7B54B2, 0px 30px 0px -13px #533978;
+border-radius: 12px;
 }
 .review-item:nth-child(2){
   width: 255px;
   height: 292px;
   background: linear-gradient(137deg, #FF68B4 0%, #FF45E1 26.04%, #CE3AFF 62.84%, #8961FF 100%);
 box-shadow: 0px 14px 0px -5px #9159B1, 0px 30px 0px -13px #61337C;
+border-radius: 12px;
 }
 .review-item:nth-child(3){
   width: 255px;
   height: 292px;
   background: linear-gradient(143deg, #FFE128 0%, #FF9B5C 30.21%, #FF8381 63.29%, #FF5489 100%);
-  box-shadow: 0px 14px 0px -5px #B95A4C, 0px 30px 0px -13px #732F26;}
+  box-shadow: 0px 14px 0px -5px #B95A4C, 0px 30px 0px -13px #732F26;
+  border-radius: 12px;}
+
 .review-text{
   /* display: flex; */
 /* background-image: url(img/reviews-bg1.png); */
@@ -257,14 +271,16 @@ font-weight: 400;
 }
 
 .order-item{
+  padding-bottom: 37px;
  align-items: center;
 background-repeat: no-repeat;
 background-size: cover;
-height: 509px;
 background-image: url(img/order-bg.png);
 }
 
 .order{
+  padding-top: 21px;
+  padding-bottom: 37px;
   justify-content: center;
 display: flex;
 color: #FFF;
@@ -273,6 +289,83 @@ font-size: 48px;
 font-weight: 400;
 display: flex;
 }
+.bunner-form {
+}
+.bunner-input-wrap {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 500px;
+  border-radius: 15px;
+  border: 1.5px solid rgba(255, 255, 255, 0.1);
+  background-color: #fff;
+  padding-left: 55px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-right: 11px;
+}
+
+.bunner-input-wrap::before {
+  content: ""; /*\1F50D*/
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  display: block;
+  top: 20px;
+  left: 18px;
+  background-color: transparent;
+  color: #ffffff61;
+}
+
+.bunner-input {
+  width: 70%;
+  color: rgb(255, 255, 255);
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  background-color: #ffffff;
+  border: none;
+  outline: none;
+}
+
+.form{
+  row-gap: 19px;
+  display: flex;
+  flex-direction: column;
+  width: 690px;
+  margin: 0 auto;
+  align-items: center;
+}
+
+.form-input:nth-child(1){
+  height: 60px;
+  padding-left: 25px;
+  border-radius: 50px;
+  width: 690px;
+  color: #959595;
+font-family: Roboto;
+font-size: 28px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.form-input:nth-child(n+2){
+  height: 50px;
+  padding-left: 24px;
+  border-radius: 50px;
+  width: 580px;
+  color: #959595;
+font-family: Roboto;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+
 .blank{
   color: #959595;
 font-size: 25px;
@@ -283,9 +376,14 @@ font-weight: 400;
 
 .search-form{
 }
-
+.button-my-nike{
+ display: flex;
+ justify-content: center;
+}
 .order_my_Nike {
-
+  align-items: center;
+  margin-top: 19px;
+  justify-content: center;
   display: flex;
   color: #fff;
   font-size: 24px;
@@ -297,11 +395,58 @@ font-weight: 400;
 }
 /* ==============================FOOTER============================= */
 .footer {
-  background-size: cover;
   display: flex;
-  background-color: #021635;
-  height: 292px;
-  color: #fff;
+
+  line-height: normal;
+ background-image: url(img/footer-bg.png);
+}
+
+.support-list{
+  color: #FFF;
+  font-family: Roboto;
   font-size: 24px;
+  font-style: normal;
   font-weight: 400;
+  margin-top: 45px;
+  gap: 800px;
+  display: flex;
+}
+.question{
+margin-left: 165px;
+}
+.support{
+  display: flex;
+  text-decoration-line: underline;
+}
+.colo2022{
+color: #FFF;
+font-family: Roboto;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal
+}
+.colo{
+  color: #FFF;
+  font-family: Roboto;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  margin-top: 45px;
+  display: flex;
+  gap: 1050px;
+  margin-left: 165px;
+}
+.company{
+  width: 178px;
+height: 86px;
+color: #FFF;
+font-family: "PT Serif";
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.logo2{
+  text-align: center;
 }
